@@ -1,19 +1,19 @@
 
 -- build check & 
 
-#build
+# build
 
 docker build -t u20zsh:20 -< dockerfile
 
-#run
+# run
 
 docker run --rm -it  u20zsh:20 
 
 
-#shell ckeck
+# shell ckeck
 
 echo $1
 
-#ubuntu version check
+# ubuntu version check
 
 cat /etc/issue
