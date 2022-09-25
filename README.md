@@ -3,17 +3,17 @@
 
 # build
 
-docker build -t u20zsh:20 -< dockerfile
+  docker build -t u20zsh:20 -< dockerfile
 
 # run
 
-docker run --rm -it  u20zsh:20 
+  docker run --rm -it  u20zsh:20 
 
 
 # shell ckeck
 
-echo $1
+  echo $1
 
 # ubuntu version check
 
-cat /etc/issue
+  cat /etc/issue
